@@ -6,17 +6,38 @@ A simple web app that takes raw lab report text, analyzes it, and displays the r
 
 ## How to Run This Project
 
-1.  **Install the necessary Python libraries:**
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/YOUR_USERNAME/lab-dashboard.git](https://github.com/YOUR_USERNAME/lab-dashboard.git)
+    cd lab-dashboard
+    ```
+
+2.  **Set up and activate the virtual environment:**
+
+    * **On Windows:**
+        ```sh
+        python -m venv venv
+        venv\Scripts\activate
+        ```
+
+    * **On Mac & Linux:**
+        ```sh
+        python3 -m venv venv
+        source venv/bin/activate
+        ```
+        *(Note: On some systems, you might use `python` instead of `python3`)*
+
+3.  **Install the necessary libraries:**
     ```sh
     pip install -r requirements.txt
     ```
 
-2.  **Start the backend server:**
+4.  **Start the backend server:**
     ```sh
     uvicorn main:app --reload
     ```
 
-3.  **Open the application:**
+5.  **Open the application:**
     * Go into the `frontend` folder.
     * Open the `index.html` file in your web browser.
 
