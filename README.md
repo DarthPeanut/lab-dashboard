@@ -8,7 +8,7 @@ A simple web app that takes raw lab report text, analyzes it, and displays the r
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/YOUR_USERNAME/lab-dashboard.git](https://github.com/YOUR_USERNAME/lab-dashboard.git)
+    git clone https://github.com/DarthPeanut/lab-dashboard.git
     cd lab-dashboard
     ```
 
