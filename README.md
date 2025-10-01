@@ -34,7 +34,7 @@ A simple web app that takes raw lab report text, analyzes it, and displays the r
 
 4.  **Start the backend server:**
     ```sh
-    uvicorn main:app --reload
+    python -m uvicorn app.main:app --reload
     ```
 
 5.  **Open the application:**
