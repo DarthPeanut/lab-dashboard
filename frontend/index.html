@@ -11,8 +11,15 @@
         <h1>Lab Results Analyzer</h1>
         <p>Paste the raw lab report text below to see flagged results.</p>
         
-        <textarea id="report-input" rows="10" placeholder="Sodium: 140..."></textarea>
-        <button id="analyze-button">Analyze</button>
+        <form id="upload-form">
+    <label for="patient-id-input">Patient ID:</label>
+    <input type="text" id="patient-id-input" required>
+
+    <label for="file-input">Upload Lab Report:</label>
+    <input type="file" id="file-input" accept="image/*" required>
+
+    <button type="submit">Analyze Document</button>
+</form>
         
         <div id="results-container">
             </div>
