@@ -68,7 +68,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ## Usage
 
 1.  **Configure Tesseract Path (Windows Only):**
-    * Open the `app/main.py` file.
+    * Open the `app/main.py` file by right clicking it opening it in notepad.
     * Update the `pytesseract.pytesseract.tesseract_cmd` path to match your Tesseract installation location (e.g., `r'C:\Program Files\Tesseract-OCR\tesseract.exe'`).
 
 2.  **Start the backend server:**
